@@ -115,3 +115,49 @@
 .we_offer_card :hover{
     transform: scale(1.5);
 }
+.collection h1{
+    font-weight: 600;
+
+}
+.sub_heading _container{
+    font-size:15px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;;
+
+}
+.sub_heading _container span:nth-child(2){
+    color : #ffeb8f;
+    cursor: pointer;
+     font-size: 13px;
+}
+.collection_card_container{
+    display: flex;
+    align-items:center;
+    gap: 0.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+.collection_card_container.card {
+    height: 300px;
+    min-width: 240px;
+    background-position: center;
+    background-size:cover;
+}
+.card1{
+    background-image: url(images/newlyopened.jpg);
+}
+.card2{
+    background-image: url(images/bestofchennai.webp);
+
+}
+.card3{
+background-image: url(images/greatbuffets.jpg);
+}
+.card4{
+    background-image: url(images/third.jpg);
+
+}
